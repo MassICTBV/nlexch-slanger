@@ -1,8 +1,6 @@
-source 'https://ruby.taobao.org'
-
-gem 'slanger', '~> 0.3.9'
-
+source :rubygems
 group :benchmark do
-  gem 'pusher'
+  gem 'pusher', '0.12.0'
   gem 'pusher-client'
 end
+gemspec
